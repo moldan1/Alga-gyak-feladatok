@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9; /* Világosszürke háttér */
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 800px; /* Központi tartalom max szélessége */
+    margin: 0 auto;
+}
+
+/* --- Fejléc stílus --- */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 0;
+}
+
+header p {
+    color: #6c757d;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+/* --- Kártya (Feladat Blokkok) stílus --- */
+.card {
+    background-color: #ffffff; /* Fehér kártya háttér */
+    border-radius: 8px; /* Lekerekített sarkok */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Enyhe árnyék */
+    margin-bottom: 30px;
+    padding: 25px;
+}
+
+.card-title {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Kék "Feladat - közepes nehézség" címke stílusa */
+.tag {
+    display: inline-block;
+    background-color: #007bff; /* Kék háttér */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+/* --- Tartalom (Leírás, Megoldás) szekciók --- */
+.section-title {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #333;
+    border-bottom: 1px solid #dee2e6; /* Vékony elválasztó vonal */
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.description-box {
+    padding: 15px;
+    background-color: #f8f9fa; /* Nagyon világosszürke háttér a leírásnak */
+    border-left: 5px solid #007bff; /* Kék oldalsáv */
+    border-radius: 4px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* --- Gombok/Linkek stílusa --- */
+.action-button {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: #e9ecef; /* Halvány szürke gomb háttér */
+    color: #007bff; /* Kék szöveg */
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+.action-button:hover {
+    background-color: #dee2e6;
+}
+
+/* Ikon stílusa a gombokban (pl. mappa, lánc) */
+.action-button i {
+    margin-right: 8px;
+    font-size: 1.1em;
+}
